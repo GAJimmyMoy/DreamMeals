@@ -6,7 +6,7 @@
 ## Project Description
 
 User clicks on a button to get a random Pokemon.
-Show initial abilities of Pokemon with its description
+Show initial abilities of Pokemon with its description.
 
 ## API and Data Sample
 
