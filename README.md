@@ -40,22 +40,19 @@ Specify the API you are using and include a link. Show us a snippet of JSON retu
     ],
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+
 https://wireframe.cc/Lrbv2o
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
-
 
 - Render the pokemon image and stats
 -click left and right to see different pokemons
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
 - See the evolved versions of the pokemon
 
