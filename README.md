@@ -61,9 +61,9 @@ Show pokemon image with initial abilities of Pokemon and the detail write up of 
 #### PostMVP  
 
 -  Allow user left and right button to see adjacent pokemon.
--  
+ 
 -  Update the pokemon image with new pokemon.
--  
+  
 -  Update ability descriptions.
 
 ## Project Schedule
