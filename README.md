@@ -11,6 +11,7 @@ User can use right click and left click through random pokemons.
 
 
 (pokemon)[https://pokeapi.co/api/v2/pokemon/4]
+
 ```
 {
     "abilities": [
@@ -78,15 +79,17 @@ https://wireframe.cc/Lrbv2o
 
 ## Timeframes
 
+|  Day | Deliverable | Status
+|---|---| ---|
+|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Feb 23| Project Approval | Incomplete
+|Feb 24| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Feb 24| Pseudocode / actual code | Incomplete
+|Feb 25| Initial Clickable Model  | Incomplete
+|Feb 26| MVP | Incomplete
+|March 1| Presentations | Incomplete
 
 
-| Component | Priority | Estimated Time Per Day
-                        --- | :---: |  :---: | :---: | :---: |
-|Accessing api              | h | 2hrs| 
-| building html             | m | 2hrs| 
-| building functionality    | h | 2hrs| 
-| formating css             | l | 2hrs| 
-| Total                     | H | 8hrs| *5 days=40hrs |
 
 ## Code Snippet
 
