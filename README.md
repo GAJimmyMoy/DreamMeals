@@ -1,12 +1,12 @@
 # Project Overview
 
-## PokeMon encyclopia
+## PokeMon random picker
 
 
 ## Project Description
 
 User clicks on a button to get a random Pokemon.
-Show initial abilities of Pokemon with its description.
+Show pokemon image with initial abilities of Pokemon and the detail write up of the abilities.
 
 ## API and Data Sample
 [API link](https://pokeapi.co/)
