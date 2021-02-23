@@ -48,18 +48,24 @@ Show pokemon image with initial abilities of Pokemon and the detail write up of 
 
 ### MVP/PostMVP
 #### MVP 
--Button to generate random pokemon from available range of numbers.
--Render  pokemon image.
--Render initial names of the abilities of the pokemon.
--Renders description of the abilities in a paragraph.
--Set stylish background associated with the type of pokemon.
+-  Button to generate random pokemon from available range of numbers.
+
+-  Render  pokemon image.
+
+-  Render initial names of the abilities of the pokemon.
+
+-  Renders description of the abilities in a paragraph.
+
+-  Set stylish background associated with the type of pokemon.
 
 #### PostMVP  
 
 -  Allow user left and right button to see adjacent pokemon.
--  Update the pokemon image with new pokemon.
--  Update ability descriptions.
 -  
+-  Update the pokemon image with new pokemon.
+-  
+-  Update ability descriptions.
+
 ## Project Schedule
 
 |  Day | Deliverable | Status
