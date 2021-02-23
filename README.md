@@ -83,13 +83,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 
 
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| Component | Priority | Estimated Time Per Day
                         --- | :---: |  :---: | :---: | :---: |
-|Accessing api              | h | 3hrs| 3.5hrs | 3.5hrs |
-| building html             | m | 3hrs| 2.5hrs | 2.5hrs |
-| building functionality    | h | 3hrs| 2.5hrs | 2.5hrs |
-| formating css             | l | 3hrs| 2.5hrs | 2.5hrs |
-| Total                     | H | 6hrs| 5hrs   | 5hrs   |
+|Accessing api              | h | 2hrs| 
+| building html             | m | 2hrs| 
+| building functionality    | h | 2hrs| 
+| formating css             | l | 2hrs| 
+| Total                     | H | 8hrs| *5 days=40hrs |
 
 ## Code Snippet
 
