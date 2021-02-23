@@ -5,8 +5,8 @@
 
 ## Project Description
 
-User clicks on a button to get a random pokemon
-Random pokemon biography of the initial abilities shown with description.
+User clicks on a button to get a random Pokemon.
+Show initial abilities of Pokemon with its description
 
 ## API and Data Sample
 
@@ -49,11 +49,11 @@ https://wireframe.cc/Lrbv2o
 
 ### MVP/PostMVP
 #### MVP 
-
--Render  pokemon Sprite as image.
+-Button to generate random pokemon from available range of numbers.
+-Render  pokemon image.
 -Render initial names of the abilities of the pokemon.
 -Renders description of the abilities in a paragraph.
-
+-Set stylish background associated with the type of pokemon.
 
 #### PostMVP  
 
@@ -90,7 +90,8 @@ https://wireframe.cc/Lrbv2o
 |Feb 23-23| Build js funtion to get adjacent pokemon|2hr
 |Feb 23-23| Build HTML buttons and functions to get adjacent pokemons|3hr
 |Feb 24-25|Take image and format it for mobile layout  | 1.5hr
-|Feb 24-25|Take abilities name and detailed description for mobile layout | 2hr
+|Feb 24-25|Look up fonts for title  | 1.5hr
+|Feb 24-25|Display abilities name and detailed description for mobile layout | 2hr
 |Feb 24-26|Make media queries for web and tablet forms| 3hr
 |Feb 26|Prep for Presentation| 3hr
 |March 1| Presentations | 5mins
