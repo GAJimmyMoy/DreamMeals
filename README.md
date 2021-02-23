@@ -39,7 +39,7 @@ User can use right click and left click through random pokemons.
         }
     ],
     
-    ```
+ ```
 ## Wireframes
 
 
