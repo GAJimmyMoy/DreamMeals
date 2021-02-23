@@ -9,9 +9,9 @@ User clicks on a button to get a random Pokemon.
 Show initial abilities of Pokemon with its description.
 
 ## API and Data Sample
+[API link](https://pokeapi.co/)
 
-
-[pokemon](https://pokeapi.co/api/v2/pokemon/4)
+[Sample api](https://pokeapi.co/api/v2/pokemon/4)
 
 ```
 {
@@ -44,8 +44,7 @@ Show initial abilities of Pokemon with its description.
  ```
 ## Wireframes
 
-
-https://wireframe.cc/Lrbv2o
+[My Wireframe](https://wireframe.cc/Lrbv2o)
 
 ### MVP/PostMVP
 #### MVP 
@@ -62,8 +61,6 @@ https://wireframe.cc/Lrbv2o
 -  Update ability descriptions.
 -  
 ## Project Schedule
-
-
 
 |  Day | Deliverable | Status
 |---|---| ---|
