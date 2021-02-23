@@ -5,12 +5,12 @@
 
 ## Project Description
 
-User can use right click and left click through random pokemons.
+User clicks on a button to get a random pokemon
 
 ## API and Data Sample
 
 
-(pokemon)[https://pokeapi.co/api/v2/pokemon/4]
+[pokemon](https://pokeapi.co/api/v2/pokemon/4)
 
 ```
 {
