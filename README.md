@@ -5,13 +5,13 @@
 
 ## Project Description
 
-Users can pick a pokemon by number and see the details
+User can use right click and left click through random pokemons.
 
 ## API and Data Sample
 
 
 (pokemon)[https://pokeapi.co/api/v2/pokemon/4]
-
+```
 {
     "abilities": [
         {
@@ -38,6 +38,8 @@ Users can pick a pokemon by number and see the details
             "url": "https://pokeapi.co/api/v2/pokemon-form/4/"
         }
     ],
+    
+    ```
 ## Wireframes
 
 
