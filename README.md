@@ -6,6 +6,7 @@
 ## Project Description
 
 User clicks on a button to get a random pokemon
+Random pokemon biography of the initial abilities shown with description.
 
 ## API and Data Sample
 
@@ -47,30 +48,31 @@ User clicks on a button to get a random pokemon
 https://wireframe.cc/Lrbv2o
 
 ### MVP/PostMVP
-
-
-
 #### MVP 
 
-- Render the pokemon image and stats
--click left and right to see different pokemons
+-Render  pokemon Sprite as image.
+-Render initial names of the abilities of the pokemon.
+-Renders description of the abilities in a paragraph.
+
 
 #### PostMVP  
 
-- See the evolved versions of the pokemon
-
+-  Allow user left and right button to see adjacent pokemon.
+-  Update the pokemon image with new pokemon.
+-  Update ability descriptions.
+-  
 ## Project Schedule
 
 
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Feb 23| Project Approval | Incomplete
-|Feb 24| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Feb 24| Pseudocode / actual code | Incomplete
-|Feb 25| Initial Clickable Model  | Incomplete
-|Feb 26| MVP | Incomplete
+|Feb 22-23| Wire api to get specific data | Incomplete
+|Feb 22-23| Build js function to get pokemon | Incomplete
+|Feb 23-23| Build js funtion to get adacent pokemon| Incomplete
+|Feb 24-25|Build HTML elements to create initial layout | Incomplete
+|Feb 24-25|  Style HTML for mobile layout | Incomplete
+|Feb 26| Style HTML for web page layout  | Incomplete
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
@@ -79,15 +81,19 @@ https://wireframe.cc/Lrbv2o
 
 ## Timeframes
 
-|  Day | Deliverable | Status
+|  Day | Tasks | Time
 |---|---| ---|
-|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Feb 23| Project Approval | Incomplete
-|Feb 24| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Feb 24| Pseudocode / actual code | Incomplete
-|Feb 25| Initial Clickable Model  | Incomplete
-|Feb 26| MVP | Incomplete
-|March 1| Presentations | Incomplete
+|Feb 22-23| Build api function to get api data | 1.5hr
+|Feb 22-23| Store selected data of Pokemon | 1.5hr
+|Feb 22-23| Test display data retrieved for accuracy | 1.5hr
+|Feb 22-23| Build random function to get a random pokemon | 2hr
+|Feb 23-23| Build js funtion to get adjacent pokemon|2hr
+|Feb 23-23| Build HTML buttons and functions to get adjacent pokemons|3hr
+|Feb 24-25|Take image and format it for mobile layout  | 1.5hr
+|Feb 24-25|Take abilities name and detailed description for mobile layout | 2hr
+|Feb 24-26|Make media queries for web and tablet forms| 3hr
+|Feb 26|Prep for Presentation| 3hr
+|March 1| Presentations | 5mins
 
 
 
