@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  height: 300px;
+  
+}
+
+h2{
+  background-color: orange;
+  
+}
+#background-image{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#buttons-area{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: tan;
+  height: 50px;
+}
+#display{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.displayContainer{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+footer{
+  text-align: center;
+}
