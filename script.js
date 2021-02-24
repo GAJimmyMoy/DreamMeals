@@ -46,9 +46,7 @@ function display(response,response1, response2) {
   pokemonName.textContent = response.data.name
   displayContainer.append(pokemonName)
   let pokemonFace = document.createElement('img')
-
-
-  console.log(response.data.sprites.front_default)
+pokemonFace.className='pokeFaceSpec'
   pokemonFace.src = response.data.sprites.other.dream_world.front_default
   
   displayContainer.append(pokemonFace)
@@ -56,7 +54,9 @@ function display(response,response1, response2) {
   let pkBio = document.createElement('p')
   pkBio.textContent = `Weight: ${(response.data.weight)/10}kg   Height: ${(response.data.height)/10}m   type: ${response.data.types[0].type.name}`
   displayContainer.append(pkBio)
-  
+  console.log(response.data.types[0].type.name)
+  setBackground(response.data.types[0].type.name)
+
   let pokemonAbility1 = document.createElement('h4')
   pokemonAbility1.textContent = response.data.abilities[0].ability.name
   displayContainer.append(pokemonAbility1)
@@ -131,3 +131,72 @@ function removePic() {
     removeImg.removeChild(removeImg.lastChild)
   }
 }
+
+function setBackground(type) {
+  console.log('im here in set backgorund')
+  let backGround = document.querySelector('#display')
+  
+  switch(type) {
+    case 'water':
+      backGround.className = 'water'
+      break;
+    case 'dragon':
+      backGround.className ='dragon'
+      break;
+      case 'grass':
+        backGround.className = 'grass'
+      break;
+      case 'normal':
+        backGround.className = 'normal';
+      break;
+      case 'electric':
+        backGround.className = 'electric';
+      break;
+      case 'fighting':
+        backGround.className = 'fighting';
+      break;
+      case 'ground':
+        backGround.className = 'ground';
+      break;
+      case 'psychic':
+        backGround.className = 'psychic';
+      break;
+      case 'rock':
+        backGround.className = 'rock';
+      break;
+      case 'dark':
+        backGround.className = 'dark';
+      break;
+      case 'steel':
+        backGround.className = 'steel';
+      break;
+      case 'fire':
+        backGround.className = 'fire';
+      break;
+      case 'ice':
+        backGround.className = 'ice';
+      break;
+      case 'poison':
+        backGround.className = 'poison';
+      break;
+      case 'flying':
+        backGround.className = 'flying';
+      break;
+      case 'bug':
+        backGround.className = 'bug';
+      break;
+      case 'ghost':
+        backGround.className = 'ghost';
+      break;
+      case 'fairy':
+        backGround.className = 'fairy';
+      break;
+    default:
+      backGround.className = 'white'
+  }
+
+}
+
+
+
+

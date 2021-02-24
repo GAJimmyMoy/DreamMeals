@@ -3,8 +3,7 @@
   padding: 0;
 }
 img{
-  height: 300px;
-  
+  height: 600px;
 }
 
 h2{
@@ -20,7 +19,7 @@ h2{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: tan;
+  
   height: 50px;
 }
 #display{
@@ -37,4 +36,72 @@ h2{
 }
 footer{
   text-align: center;
+}
+
+.normal{
+  background-color: grey;
+}
+.water{
+  background-color: lightskyblue;
+}
+.electric{
+  background-color: yellow;
+}
+.fighting{
+  background-color: red;
+}
+.ground{
+  background-color: gold;
+}
+.psychic{
+  background-color: hotpink;
+}
+.rock{
+  background-color: brown;
+}
+.dark{
+  background-color: darkslategrey;
+}
+.steel{
+  background-color: slategrey;
+}
+.fire{
+  background-color: orangered;
+}
+.grass{
+  background-color: greenyellow;
+}
+.ice{
+  background-color: skyblue;
+}
+.poison{
+  background-color: purple;
+}
+.flying{
+  background-color: slateblue;
+}
+.bug{
+  background-color: limegreen;
+}
+.ghost{
+  background-color: mediumpurple;
+}
+.dragon{
+  background-color: plum;
+}
+.fairy{
+  background-color: lightpink;
+}
+
+button{
+  border: none;
+  padding: 10px;
+  border-radius: 5%;
+  background-color: yellow;
+}
+button:hover{
+  background-color: pink;
+}
+.pokeFaceSpec{
+  height: 300px;
 }
