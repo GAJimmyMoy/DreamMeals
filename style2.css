@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+p{font-size: 14px;}
+body{
+  background: linear-gradient(to bottom, #33ccff 0%, #00ffff 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.column-layout{
+  margin: 20px;
+}
+h1{
+  text-align: center;
+}
+
+h2{
+  background-color: orange;
+}
+#main-column{ 
+text-align: center;
+padding-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+img{
+  padding: 0;
+  margin: 0;
+  height: 200px;
+}
+.pokeFaceSpec{
+  height: 200px;
+}
+.sidebar-one{
+  
+ padding: 30px;
+}
+.sidebar-two{
+  padding: 30px;
+ 
+}
+.normal{
+  background-color: grey;
+}
+.water{
+  background-color: lightskyblue;
+}
+.electric{
+  background-color: yellow;
+}
+.fighting{
+  background-color: red;
+}
+.ground{
+  background-color: gold;
+}
+.psychic{
+  background-color: hotpink;
+}
+.rock{
+  background-color: brown;
+}
+.dark{
+  background-color: darkslategrey;
+}
+.steel{
+  background-color: slategrey;
+}
+.fire{
+  background-color: orangered;
+}
+.grass{
+  background-color: greenyellow;
+}
+.ice{
+  background-color: skyblue;
+}
+.poison{
+  background-color: purple;
+}
+.flying{
+  background-color: slateblue;
+}
+.bug{
+  background-color: limegreen;
+}
+.ghost{
+  background-color: mediumpurple;
+}
+.dragon{
+  background-color: plum;
+}
+.fairy{
+  background-color: lightpink;
+}
+#buttons-area{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  height: 50px;
+}
+button{
+  border: none;
+  padding: 10px;
+  border-radius: 5%;
+  background-color: yellow;
+}
+button:hover{
+  background-color: pink;
+}
+
+h1{color: rgb(245, 245, 28);}
+
+
+@media(min-width: 900px){
+  /* img{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+  } */
+.column-layout{
+  
+  display: flex;
+}
+.main-column{
+  flex-wrap: wrap;
+  flex:2;
+}
+.sub-column{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  
+}
+.sidebar-one{
+  margin: 20px;
+ padding: 30px;
+  
+   flex: 1;
+   
+}
+.sidebar-two{
+  padding: 30px;
+  margin: 20px;
+  flex: 1;
+  
+}
+p{font-size: 18px;}
+}
