@@ -2,46 +2,43 @@
   margin: 0;
   padding: 0;
 }
-img{
-height: 600px;
 
+body{
+  background: linear-gradient(to bottom, #33ccff 0%, #00ffff 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-
+.column-layout{
+  margin: 20px;
+}
+#main-column{ 
+  text-align: center;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .sidebar-one{
+    padding: 30px;
+   }
+   .sidebar-two{
+     padding: 30px;
+   }
+p{
+  font-size: 14px;
+}
+h1{
+  color: rgb(245, 245, 28);
+  text-align: center;
+}
 h2{
   background-color: orange;
-  
 }
-#background-image{
-  text-align: center;
-  width: auto;
-  
-}
-
-#buttons-area{
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  
-  height: 50px;
-}
-#display{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
-}
-.displayContainer{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 600px;
-}
-footer{
-  text-align: center;
+.pokeFaceSpec{
+  height: 200px;
 }
 
 .normal{
-  background-color: grey;
+  background-color: #e6e5e5;
 }
 .water{
   background-color: lightskyblue;
@@ -95,6 +92,12 @@ footer{
   background-color: lightpink;
 }
 
+#buttons-area{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 50px;
+}
 button{
   border: none;
   padding: 10px;
@@ -104,47 +107,37 @@ button{
 button:hover{
   background-color: pink;
 }
-.pokeFaceSpec{
-  height: 300px;
-}
-h1{color: rgb(245, 245, 28);}
-
-@media only screen and (max-width: 960px) {
-  img{
-    height: 400px;
-  }
-  #background-image{
-    text-align: center;
-    
-   width:100%;
-  }
-}
 
 
-@media only screen and (max-width: 600px) {
-  img{
-    height: 281px;
-  }
-  #background-image{
-    text-align: center;
-    
-    margin-left: auto;
-    margin-right: auto;
-  }
-  p{font-size: 12px;}
-  .displayContainer{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 375px;
-  }
-  #display{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 60%vh;
-  }
-  .pokeFaceSpec{
-    height: 200px;
-  }
+@media(min-width: 900px){
+    .column-layout{
+      display: flex;
+    }
+
+    .main-column{
+      flex-wrap: wrap;
+      flex:2;
+    }
+
+    .sub-column{
+      flex:1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sidebar-one{
+      margin: 20px;
+    padding: 30px;
+      flex: 1;
+    }
+
+    .sidebar-two{
+      padding: 30px;
+      margin: 20px;
+      flex: 1;
+      
+    }
+    p{
+      font-size: 18px;
+    }
 }
