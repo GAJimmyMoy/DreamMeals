@@ -4,7 +4,7 @@
 
 
 ## Project Description
-
+[Git hub link here](https://gajimmymoy.github.io/PokemonDex/)
 User clicks on a button to get a random Pokemon.
 Show pokemon image with initial abilities of Pokemon and the detail write up of the abilities.
 
